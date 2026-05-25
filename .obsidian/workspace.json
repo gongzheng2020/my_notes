@@ -4,30 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "0df2d40b68269695",
-        "type": "tabs",
-        "dimension": 66.10978520286396,
-        "children": [
-          {
-            "id": "6567132e05589ae5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C、C++/CPP——基础.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "CPP——基础"
-            }
-          }
-        ]
-      },
-      {
         "id": "5116d2731ac49293",
         "type": "tabs",
-        "dimension": 33.89021479713604,
+        "dimension": 73.74631268436578,
         "children": [
           {
             "id": "35f85e13cbbb1adb",
@@ -35,12 +14,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C、C++/CPP——基础.md",
-                "mode": "preview",
-                "source": false
+                "file": "C、C++/CPP——面向对象.md",
+                "mode": "source",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "CPP——基础"
+              "title": "CPP——面向对象"
+            }
+          }
+        ]
+      },
+      {
+        "id": "714b477a5dab7d1f",
+        "type": "tabs",
+        "dimension": 26.253687315634217,
+        "children": [
+          {
+            "id": "6233a85aa70324b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C、C++/CPP——面向对象.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "CPP——面向对象"
             }
           }
         ]
@@ -202,7 +202,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,13 +217,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6567132e05589ae5",
+  "active": "35f85e13cbbb1adb",
   "lastOpenFiles": [
-    "Markdown语法/Markdown——高级语法.md",
     "C、C++/CPP——基础.md",
+    "C、C++/CPP——面向对象.md",
     "C、C++/C语言——高级.md",
-    "C、C++/C语言——排序算法.md",
     "C、C++/C语言——基础.md",
+    "C、C++/C语言——排序算法.md",
+    "Pasted image 20260524161945.png",
+    "Markdown语法/Markdown——高级语法.md",
     "Markdown语法/Markdown——基础语法.md",
     "未命名",
     "Sorting_quicksort_anim.gif",
@@ -241,7 +244,6 @@
     "2026-05-17.md",
     "This is a big test.md",
     "Pasted image 20260517170839.png",
-    "Pasted image 20260517164109.png",
     "未命名.base",
     "未命名 1.base",
     "创建链接.md",
