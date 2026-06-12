@@ -23,6 +23,64 @@ int main()
 
 ---
 
+## Lambda 函数与表达式
+
+Lambda 表达式把函数看作对象。Lambda 表达式可以像对象一样使用，比如可以将它们赋给变量和作为参数传递，还可以像函数一样对其求值。
+
+### 创建Lambda表达式
+
+Lambda 表达式本质上与函数声明非常类似。Lambda 表达式具体形式如下:
+``` cpp
+[capture](parameters)->return-type{body}
+[](int x, int y) -> int { int z = x + y; return z + x; }
+
+[capture](parameters){body}
+[]{ ++global_x; } 
+```
+>[capture]用于携带创建时的环境，其传入的对象会被“记住”。
+
+### Lambda的捕获列表
+
+在Lambda表达式内可以访问当前作用域的变量，这是Lambda表达式的**闭包（Closure）行为**。 与JavaScript闭包不同，**C++变量传递有传值和传引用的区别**。可以通过前面的[]来指定：
+``` cpp
+[]      // 沒有定义任何变量。使用未定义变量会引发错误。
+[x, &y] // x以传值方式传入（默认），y以引用方式传入。
+[&]     // 任何被使用到的外部变量都隐式地以引用方式加以引用。
+[=]     // 任何被使用到的外部变量都隐式地以传值方式加以引用。
+[&, x]  // x显式地以传值方式加以引用。其余变量以引用方式加以引用。
+[=, &z] // z显式地以引用方式加以引用。其余变量以传值方式加以引用。
+```
+>对于[=]或[&]的形式，lambda 表达式可以直接使用 this 指针。但是，**对于[]的形式，如果要使用 this 指针，必须显式传入**：
+>	``` cpp
+>	[this]() { this->someFunc(); }();
+>	```
+
+### Lambda底层原理
+
+Lambda 表达式会被编译器翻译成一个**匿名类（闭包类型）**。
+**Lambda 写法：**
+``` cpp
+int factor = 3;
+auto f = [factor](int x) { return x * factor; };
+```
+**等效代码：**
+``` cpp
+class __LambdaClosure__ {
+    int factor; // 捕获的成员变量
+public:
+    __LambdaClosure__(int f) : factor(f) {} // 构造函数
+    
+    // 默认是 const 的，所以不能修改 factor
+    int operator()(int x) const { 
+        return x * factor; 
+    }
+};
+// 实例化
+auto f = __LambdaClosure__(3);
+```
+
+---
+
 ## Vector容器
 
 `vector` 本质上是一个**可自动扩容的动态数组**，与传统数组相比，**vector 不需要手动管理内存，可以根据元素数量自动扩容**。
