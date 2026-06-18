@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机基础/操作系统——IO与设备管理.md",
+                "file": "计算机基础/计算机网络——基础概念.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "操作系统——IO与设备管理"
+              "title": "计算机网络——基础概念"
             }
           }
         ]
@@ -41,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -198,22 +198,25 @@
   },
   "active": "ad94b254b98352d3",
   "lastOpenFiles": [
-    "Pasted image 20260611163022.png",
-    "Pasted image 20260611160623.png",
-    "Pasted image 20260611151642.png",
-    "Pasted image 20260611103305.png",
-    "计算机基础/操作系统——进程与线程.md",
+    "杂项/大论文目录.md",
+    "计算机基础/计算机网络——基础概念.md",
+    "Pasted image 20260618111611.png",
+    "Pasted image 20260618111604.png",
+    "Pasted image 20260618111557.png",
+    "Pasted image 20260618111446.png",
+    "计算机基础/操作系统——其他.md",
+    "Pasted image 20260613135249.png",
+    "Pasted image 20260612174700.png",
+    "C、C++/C语言——基础.md",
+    "Pasted image 20260612155048.png",
     "计算机基础/操作系统——IO与设备管理.md",
-    "计算机基础/操作系统——同步与互斥.md",
     "计算机基础/操作系统——内存管理.md",
-    "Pasted image 20260611091211.png",
-    "Pasted image 20260611090535.png",
-    "Pasted image 20260611090526.png",
-    "Pasted image 20260610202435.png",
+    "Pasted image 20260612151223.png",
+    "Pasted image 20260612151218.png",
+    "Pasted image 20260612145711.png",
+    "计算机基础/操作系统——进程与线程.md",
+    "计算机基础/操作系统——同步与互斥.md",
     "Markdown语法/Markdown——高级语法.md",
-    "Pasted image 20260610180412.png",
-    "Pasted image 20260610175640.png",
-    "Pasted image 20260610172947.png",
     "计算机基础/操作系统——中断与异常.md",
     "计算机基础/操作系统",
     "C、C++/CPP——高级.md",
@@ -230,8 +233,6 @@
     "未命名.md",
     "嵌入式",
     "[[CPP——面向对象.md",
-    "杂项/大论文目录.md",
-    "C、C++/C语言——基础.md",
     "C、C++/C语言——排序算法.md",
     "Markdown语法/Markdown——基础语法.md",
     "博客",
@@ -242,7 +243,6 @@
     "2026-05-17.md",
     "This is a big test.md",
     "未命名.base",
-    "未命名 1.base",
-    "创建链接.md"
+    "未命名 1.base"
   ]
 }
