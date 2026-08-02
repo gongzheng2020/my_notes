@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "13910a14e570c952",
+        "id": "517812c9d37d474e",
         "type": "tabs",
         "children": [
           {
-            "id": "93e07661e86679a6",
+            "id": "2d2ccf0d0e8d406c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "嵌入式/总线——SPI.md",
+                "file": "嵌入式Linux/全志v3s——以太网.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "总线——SPI"
+              "title": "全志v3s——以太网"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -78,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.50043487548828,
-    "collapsed": true
+    "width": 277.63932037353516
   },
   "right": {
     "id": "d597ac088cef4545",
@@ -157,13 +158,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Markdown语法/高级语法.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "高级语法 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -177,11 +177,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 233.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -196,54 +196,54 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "93e07661e86679a6",
+  "active": "2d2ccf0d0e8d406c",
   "lastOpenFiles": [
-    "v2-ac42d263a336301cbe65d37738d4454a_b.webp",
-    "嵌入式/总线——I2C.md",
-    "嵌入式/总线——SPI.md",
-    "v2-d894540f83fd6f02ae0166edc41186f5_b.webp",
-    "Pasted image 20260713105413.png",
-    "Pasted image 20260713105035.png",
-    "Pasted image 20260713104453.png",
-    "Pasted image 20260713102408.png",
-    "嵌入式/总线——串口.md",
-    "嵌入式/FreeRTOS.md",
-    "Pasted image 20260712151408.png",
-    "Pasted image 20260712150639.png",
-    "Pasted image 20260712150621.png",
-    "Pasted image 20260712150549.png",
-    "Pasted image 20260712150432.png",
-    "计算机基础/计算机网络——基础概念.md",
-    "计算机基础/计算机网络——安全与缓存.md",
-    "计算机基础/操作系统——进程与线程.md",
-    "计算机基础/操作系统——同步与互斥.md",
-    "计算机基础/计算机网络——HTTP.md",
-    "嵌入式/QT.md",
-    "计算机基础/数据库——SQL.md",
-    "Markdown语法/Markdown——高级语法.md",
-    "计算机基础/计算机组成原理——计算机系统.md",
-    "计算机基础/计算机网络——综合应用.md",
-    "计算机基础/计算机网络——TCP.md",
-    "计算机基础/操作系统——IO与设备管理.md",
-    "Markdown语法/Markdown——基础语法.md",
-    "杂项/大论文目录.md",
-    "计算机基础/操作系统——其他.md",
-    "C、C++/C语言——基础.md",
-    "计算机基础/操作系统——内存管理.md",
-    "计算机基础/操作系统——中断与异常.md",
-    "计算机基础/操作系统",
-    "C、C++/CPP——高级.md",
+    "Pasted image 20260801200028.png",
+    "嵌入式Linux/全志v3s——驱动RTL8723网卡.md",
+    "嵌入式Linux/全志v3s——LRADC按键.md",
+    "嵌入式Linux/全志v3s——LCD触摸屏.md",
+    "嵌入式Linux/全志v3s——以太网.md",
+    "嵌入式Linux/全志v3s——简单编译测试.md",
+    "嵌入式Linux/全志v3s——Codec音频.md",
+    "Pasted image 20260801195018.png",
+    "Pasted image 20260801193522.png",
+    "Pasted image 20260801184225.png",
+    "Pasted image 20260801175046.png",
+    "Pasted image 20260801173439.png",
+    "Pasted image 20260801172030.png",
+    "Pasted image 20260801151317.png",
+    "Pasted image 20260801144256.png",
+    "Pasted image 20260801135916.png",
+    "Pasted image 20260801135716.png",
+    "嵌入式Linux/嵌入式Linux——buildroot中的Overlay.md",
+    "嵌入式Linux/嵌入式Linux——基础.md",
+    "嵌入式Linux/全志v3s——QT5测试.md",
+    "嵌入式Linux/创建交叉编译环境.md",
+    "嵌入式基础/FreeRTOS.md",
+    "嵌入式基础/总线——SPI.md",
     "C、C++/CPP——基础.md",
+    "嵌入式Linux",
+    "C、C++/面试题.md",
+    "C、C++/C语言——基础.md",
     "C、C++/C语言——高级.md",
+    "C、C++/CPP——面向对象.md",
+    "嵌入式基础/总线——I2C.md",
+    "杂项/大论文目录.md",
+    "Linux",
+    "嵌入式基础/STM32相关.md",
+    "计算机基础/操作系统——内存管理.md",
+    "嵌入式基础/总线——串口.md",
+    "计算机基础/计算机网络——基础概念.md",
+    "计算机基础/计算机网络——TCP.md",
+    "计算机基础/计算机网络——HTTP.md",
+    "计算机基础/操作系统",
     "计算机基础",
     "未命名.canvas",
     "杂项",
-    "嵌入式",
+    "嵌入式基础",
     "博客",
     "Markdown语法",
     "通信接口",
-    "C、C++",
-    "未命名.base",
-    "未命名 1.base"
+    "C、C++"
   ]
 }
