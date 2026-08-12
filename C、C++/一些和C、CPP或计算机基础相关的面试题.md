@@ -30,6 +30,10 @@ A：内存碎片分为外部和内部两种。外部碎片是指内存只剩下�
 10. Q：数组和链表的区别
 A：数组是大小固定，在内存中连续存储的，访问速度快但执行插入删除操作比较麻烦；链表的大小不固定，在内存中不连续，其插入删除操作比较高效（改指针即可），但内存开销大、访问慢。
 
+C++的三大特性是**封装**、**继承**和**多态**
+
+
+
 ## 参考文献
 1. [史上最全C/C++面试、C++面经八股文，一文带你彻底搞懂C/C++面试、C++面经！](https://blog.csdn.net/songbijian/article/details/132507421)
 2. [影石360嵌入式工程师面经](https://www.xiaohongshu.com/explore/6895b8f00000000025024b9e?xsec_token=ABVbCfNIetgwH3pW0jI8yx3pPDnvhO1jWTo2hV1uYnX4Y=&xsec_source=pc_user)
