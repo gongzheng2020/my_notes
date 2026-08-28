@@ -672,10 +672,20 @@ void main(){
 1. [基于STM32的简易Bootloader实现](https://www.cnblogs.com/jiuliblog-2016/p/11411887.html)
 2. [STM32单片机实现Bootloader跳转的关键步骤](https://zhuanlan.zhihu.com/p/648855822)
 3. [[STM32]HAL库实现自己的BootLoader-BootLoader与OTA-STM32CUBEMX](https://jishuzhan.net/article/1819327870636396546)
+4. [无调试器时栈回溯解决hardfault问题](https://blog.csdn.net/qq_51385715/article/details/149296052)
 
 ---
 
 ## 一些不会的面试题
 
-1. Q：
-A：
+1. Q：ARM Cortex-M 内核中，如何通过栈回溯定位 HardFault 异常的根本原因？
+A：可以通过调试器或直接重写HardFault 函数得到PC与LR寄存器值，并通过addr2line工具得到具体出错的行号。
+
+2. Q：STM32系列单片机所用的架构和内核？Cortex-M3特点及与M4内核的区别？
+A：STM32采用的是哈佛架构，一般是Cortex-M系列内核。Cortex-M3 是基于**ARMv7-M架构**的32位处理器内核，具有3级流水线，支持硬件除法和位带操作，支持嵌套向量中断控制器，同时可以添加丰富外设，广泛应用于微控制器、汽车电子、传感器等，具有**高性能、低功耗与低成本**的优势；M4与M3内核相比，主要就是添加了浮点单元和DSP指令集，适合需要大量浮点和数学运算的场景中。
+
+3. Q：PWM定时器输入捕获？
+A：通过检测TIMx_CHx通道上的边沿信号，在边沿信号发生跳变（比如上升沿/下降沿）的时候，将当前定时器的值（TIMx_CNT）存放到对应的捕获/比较寄存器（TIMx_CCRx）里面，完成一次捕获。
+
+4. Q：CPU中断响应流程？
+A：当发生中断后，首先就是保存现场，将寄存器压入栈中，设置LR寄存器（决定MSP还是PSP进行恢复），再从中断向量表中取入口地址装入PC中，开始执行中断函数，执行完毕后恢复现场，根据LR寄存器的值决定返回模式，寄存器出栈并恢复PC指针，回到主程序继续运行。
