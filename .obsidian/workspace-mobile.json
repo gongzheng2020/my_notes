@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂项/面试整理.md",
-                "mode": "source",
+                "file": "计算机基础/计算机网络——TCP.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "面试整理"
+              "title": "计算机网络——TCP"
             }
           }
         ]
@@ -112,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "C、C++/CPP——基础.md",
+            "file": "嵌入式基础/STM32相关.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -170,8 +170,24 @@
   },
   "active": "f7eff592443d0c16",
   "lastOpenFiles": [
-    "嵌入式Linux/全志v3s——LCD触摸屏.md",
+    "嵌入式基础/总线——I2C.md",
+    "计算机基础/计算机网络——TCP.md",
+    "杂项/面试整理.md",
+    "嵌入式基础/FreeRTOS.md",
+    "嵌入式基础/总线——串口.md",
+    "嵌入式基础/总线——SPI.md",
+    "嵌入式基础/STM32相关.md",
+    "C、C++/一些和C、CPP或计算机基础相关的面试题.md",
     "C、C++/CPP——基础.md",
+    "计算机基础/操作系统——内存管理.md",
+    "计算机基础/操作系统——进程与线程.md",
+    "C、C++/C语言——高级.md",
+    "计算机基础/操作系统——其他.md",
+    "Pasted image 20260812194228.png",
+    "Pasted image 20260812104541.png",
+    "Pasted image 20260812103600.png",
+    "Pasted image 20260812103119.png",
+    "嵌入式Linux/全志v3s——LCD触摸屏.md",
     "Merge_sort_animation2.gif",
     "测试.canvas",
     "未命名.base",
