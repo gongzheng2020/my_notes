@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "嵌入式基础/STM32.md",
+                "file": "C、C++/一些和C、CPP或计算机基础相关的面试题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "STM32"
+              "title": "一些和C、CPP或计算机基础相关的面试题"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C、C++/一些和C、CPP或计算机基础相关的面试题.md",
+                "file": "嵌入式基础/STM32.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "一些和C、CPP或计算机基础相关的面试题"
+              "title": "STM32"
             }
           },
           {
@@ -105,7 +105,8 @@
               "title": "总线——I2C"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,7 +168,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.4062080383301
+    "width": 269.4062080383301,
+    "collapsed": true
   },
   "right": {
     "id": "d597ac088cef4545",
@@ -283,72 +285,37 @@
       "bases:新建数据库": false
     }
   },
-  "floating": {
-    "id": "db50c417505b9ff1",
-    "type": "floating",
-    "children": [
-      {
-        "id": "352f1fc4d205a109",
-        "type": "window",
-        "children": [
-          {
-            "id": "03aaa4c05c9b1554",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "82e535656accf940",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "计算机基础/计算机网络——TCP.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "计算机网络——TCP"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 448,
-        "y": 116,
-        "width": 1024,
-        "height": 800,
-        "maximize": true,
-        "zoom": 1.5
-      }
-    ]
-  },
-  "active": "a84848879776f4b2",
+  "active": "1ebd727c25fc1b88",
   "lastOpenFiles": [
+    "杂项/陀螺仪项目.md",
     "C、C++/一些和C、CPP或计算机基础相关的面试题.md",
-    "计算机基础/计算机网络——TCP.md",
     "杂项/面试整理.md",
-    "嵌入式基础/总线——I2C.md",
     "嵌入式Linux/Linux相关的面试题.md",
+    "C、C++/CPP——高级.md",
+    "嵌入式基础/STM32.md",
+    "嵌入式基础/FreeRTOS.md",
+    "Pasted image 20260901164413.png",
+    "杂项/小车项目.md",
+    "Pasted image 20260831173243.png",
+    "Pasted image 20260831172526.png",
+    "Pasted image 20260831172505.png",
+    "嵌入式基础/总线——I2C.md",
+    "Pasted image 20260831105754.png",
+    "Pasted image 20260831103835.png",
+    "C、C++/CPP——面向对象.md",
+    "Pasted image 20260831095912.png",
+    "Pasted image 20260830144649.png",
+    "Pasted image 20260830144624.png",
+    "嵌入式基础/总线——SPI.md",
+    "计算机基础/计算机网络——TCP.md",
     "计算机基础/操作系统——同步与互斥.md",
     "C、C++/CPP——基础.md",
-    "嵌入式基础/FreeRTOS.md",
     "计算机基础/操作系统——进程与线程.md",
-    "嵌入式基础/STM32.md",
     "嵌入式Linux/嵌入式Linux——基础.md",
     "嵌入式Linux/嵌入式Linux——字符驱动设备程序测试.md",
-    "嵌入式基础/总线——SPI.md",
     "嵌入式Linux/全志v3s——简单编译测试.md",
     "计算机基础/操作系统——内存管理.md",
     "Pasted image 20260826095344.png",
-    "Pasted image 20260826095301.png",
-    "Pasted image 20260826095150.png",
-    "Pasted image 20260826095119.png",
-    "Pasted image 20260826095021.png",
-    "Pasted image 20260826094454.png",
-    "Pasted image 20260826094418.png",
-    "Pasted image 20260826094306.png",
-    "Pasted image 20260826093741.png",
-    "Pasted image 20260826093617.png",
     "嵌入式Linux/创建交叉编译环境.md",
     "Markdown语法/Markdown——高级语法.md",
     "Markdown语法/Markdown——基础语法.md",
@@ -356,10 +323,6 @@
     "嵌入式Linux/未命名.md",
     "计算机基础/计算机组成原理——计算机系统.md",
     "C、C++/C语言——基础.md",
-    "C、C++/CPP——面向对象.md",
-    "计算机基础/操作系统——IO与设备管理.md",
-    "面试相关/未命名.md",
-    "嵌入式基础/总线——串口.md",
     "面试相关",
     "Ink/Drawing/2026.5.25 - 22.53pm.drawing",
     "Ink/Drawing",
