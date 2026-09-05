@@ -107,6 +107,12 @@ A：二者没有区别，都是修饰一个指向常量整数的指针，被指�
 
 25. define和typedef的区别？
 A：#define 是预处理阶段的文本替换；typedef 是编译阶段给已有类型取别名。
+
+26. malloc的基本原理？
+A：malloc 的基本原理是维护一片堆内存，并在堆中保存空闲内存块链表。每个内存块通常包含一段管理信息，例如块大小、空闲状态以及前后块指针。调用 malloc(size) 时，分配器会遍历空闲链表，找到大小足够的空闲块，并返回地址。调用 free(ptr) 时，分配器根据指针找到对应的块，加入空闲链表，并尝试与相邻空闲块合并，以减少碎片。
+
+27. makefile作用？
+A：Makefile 的作用是统一管理项目的编译流程。它会指定一些编译规则（如编译器、编译选项、源文件、目标文件和链接规则），减少手动输入命令提高构建效率，且在执行 `make` 后，根据文件的修改时间和依赖关系，只重新编译发生变化的文件。
 ## 参考文献
 1. [史上最全C/C++面试、C++面经八股文，一文带你彻底搞懂C/C++面试、C++面经！](https://blog.csdn.net/songbijian/article/details/132507421)
 2. [影石360嵌入式工程师面经](https://www.xiaohongshu.com/explore/6895b8f00000000025024b9e?xsec_token=ABVbCfNIetgwH3pW0jI8yx3pPDnvhO1jWTo2hV1uYnX4Y=&xsec_source=pc_user)
